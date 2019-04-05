@@ -25,6 +25,7 @@
 
 // Fan speeds. Note that some heatpumps have less than 5 fan speeds
 #define FAN_AUTO    0
+#define FAN_QUIET   9
 #define FAN_1       1
 #define FAN_2       2
 #define FAN_3       3

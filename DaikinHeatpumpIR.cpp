@@ -52,6 +52,9 @@ void DaikinHeatpumpIR::send(IRSender& IR, uint8_t powerModeCmd, uint8_t operatin
     case FAN_AUTO:
       fanSpeed = DAIKIN_AIRCON_FAN_AUTO;
       break;
+    case FAN_QUIET:
+      fanSpeed = DAIKIN_AIRCON_FAN_QUIET;
+      break;
     case FAN_1:
       fanSpeed = DAIKIN_AIRCON_FAN1;
       break;
